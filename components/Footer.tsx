@@ -120,16 +120,15 @@ export function Footer({ pageData: initialPageData }: FooterProps) {
               </div>
               
               {/* Google Maps Embed */}
-              <div className="mt-4">
+              <div className="mt-4 overflow-hidden rounded-lg border">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.537329084522!2d55.2739!3d25.1891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6821c07e03c7%3A0x82c25b7c2a65f9ea!2sAl%20Manara%20Tower%2C%20Business%20Bay%20-%20Dubai!5e0!3m2!1sen!2sae!4v1703123456789!5m2!1sen!2sae"
                   width="100%"
-                  height="250"
+                  height="300"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  className="rounded-lg border"
                   title="Dubai Business Bay Office Location"
                 />
               </div>
