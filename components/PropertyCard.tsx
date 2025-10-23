@@ -81,7 +81,9 @@ export function PropertyCard({ property }: PropertyCardProps) {
 
         {/* Title/Features */}
         <p className="text-sm text-blue-600 line-clamp-1">
-        <Link href={`/property/${property.id}`}> ${property.name} </Link>
+          <Link href={`/property/${property.id}`}>
+            {property.name || "Prime Location | Pool View | Handover Soon"}
+          </Link>
         </p>
 
         {/* Location */}
