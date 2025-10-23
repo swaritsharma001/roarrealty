@@ -479,7 +479,7 @@ const Home = ({ initialPageData, initialTeamMembers, initialFeaturedProperties, 
                         teamMembers = await teamResponse.json()
                       }
 
-                      const propertiesResponse = await fetch(`${baseUrl}/property?limit=5`)
+                      const propertiesResponse = await fetch(`${baseUrl}/property?limit=6`)
                       if (propertiesResponse.ok) {
                         const apiData = await propertiesResponse.json()
                         const properties = apiData.properties || []
@@ -506,7 +506,8 @@ const Home = ({ initialPageData, initialTeamMembers, initialFeaturedProperties, 
                             featured: true,
                             status: property.status || "",
                             sale_status: property.sale_status || "",
-                            developer: property.developer || ""
+                            developer: property.developer || "",
+                            name: property.name || ""
                           }
                         })
                       }
