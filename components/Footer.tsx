@@ -120,7 +120,11 @@ export function Footer({ pageData: initialPageData }: FooterProps) {
               </div>
               
               {/* Google Maps Embed */}
-              <div className="mt-6 rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+              
+            </div>
+          </div>
+        </div>
+        <div className="mt-6 rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
                 <div className="p-3 bg-gray-50 border-b flex items-center justify-between">
                   <h2 className="text-lg font-semibold text-gray-700">📍 Office Location</h2>
                   <span className="text-sm text-gray-500">Business Bay, Dubai</span>
@@ -136,9 +140,6 @@ export function Footer({ pageData: initialPageData }: FooterProps) {
                   title="Dubai Business Bay Office Location"
                 />
               </div>
-            </div>
-          </div>
-        </div>
 
         <Separator className="my-8" />
 
