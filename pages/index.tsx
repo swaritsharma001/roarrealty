@@ -217,9 +217,9 @@ const Home = ({ initialPageData, initialTeamMembers, initialFeaturedProperties, 
               <Link href="/properties" className="w-full sm:w-auto">
                 <Button 
                   size="lg" 
-                  className="w-full sm:w-auto bg-white text-black hover:bg-gray-100 font-semibold text-sm md:text-base px-5 md:px-7 py-3 md:py-4 rounded-xl shadow-[3px_3px_0px_0px_rgba(255,255,255,0.3)] hover:shadow-[2px_2px_0px_0px_rgba(255,255,255,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300"
+                  className="w-full sm:w-auto bg-white text-black hover:bg-gray-100 font-semibold text-sm md:text-base px-5 md:px-7 py-3 md:py-4 rounded-xl shadow-[3px_3px_0px_0px_rgba(255,255,255,0.3)] hover:shadow-[2px_2px_0px_0px_rgba(255,255,255,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 mb-4"
                 >
-                  Explore Properties <ArrowRight className="ml-2 h-4 w-4 mt-4" />
+                  Explore Properties <ArrowRight className="ml-2 h-4 w-4 mb-4" />
                 </Button>
               </Link>
             </div>
@@ -229,7 +229,7 @@ const Home = ({ initialPageData, initialTeamMembers, initialFeaturedProperties, 
           <CurvedLoop 
             marqueeText="Premium Properties ✦ Dubai ✦ Luxury Living ✦"
             speed={4}
-            curveAmount={0}
+            curveAmount={2}
             direction="right"
             interactive={true}
             className="text-8xl font-bold text-black"
